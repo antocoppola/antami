@@ -1,1 +1,1 @@
-web: functions-framework --target=main --port=$PORT
+web: python main.py
