@@ -37,11 +37,10 @@ ENV_MAP = {
 
 AMP_OK = (
     {'interstitial','interstitial0','interstitial2','interstitial3','interstitial_desktop',
-          'interstitial_desktop2','2page','back','footer','masthead','page-multiplier',
-          'article-top','article-middle','article-bottom','spalla-top','spalla-middle','spalla-bottom',
+     'interstitial_desktop2','2page','back','footer','masthead','page-multiplier',
+     'article-top','article-middle','article-bottom','spalla-top','spalla-middle','spalla-bottom',
      'skyscraper-left','skyscraper-right','header','article-fluid1','article-fluid2'}
-    |
-     {f'article-middle-{i}' for i in range(2,11)}
+    | {f'article-middle-{i}' for i in range(2,11)}
     | {f'spalla-middle-{i}' for i in range(2,11)}
     | {f'article-{i}' for i in range(1,13)}
 )
